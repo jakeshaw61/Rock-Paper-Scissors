@@ -119,3 +119,105 @@ i:hover {
 i {
     font-size: 4.5rem;
 }
+
+/* Media queries for screen size 480px and up */
+
+@media screen and (min-width: 480px) {
+    body {
+        margin: 0 10%;
+    }
+
+    h1 {
+        font-size: 3.2rem;
+        margin: 30px auto 15px;
+    }
+
+    .rules {
+        font-size: 1.1rem;
+        margin: 10px 0 10px;
+    }
+
+    .choices {
+        margin-top: 40px;
+    }
+
+    button {
+        font-size: 1.2rem;
+    }
+    
+    button > i {
+        font-size: 5rem;
+    }
+}
+
+/* Media queries for screen size 768px and up */
+
+@media screen and (min-width: 768px) {
+    body {
+        margin: 0 15%;
+    }
+
+    h1 {
+        font-size: 4rem;
+        margin: 30px auto 15px;
+    }
+
+    .message {
+        font-size: 2.5rem;
+    }
+
+    .choices {
+        margin-top: 50px;
+    }
+
+    button {
+        font-size: 1.3rem;
+    }
+    
+    button > i {
+        font-size: 5.2rem;
+    }
+}
+
+/* Media queries for screen size 1024px and up */
+
+@media screen and (min-width: 1024px) {
+    body {
+        margin: 20px 20% 0;
+    }
+
+    h1 {
+        font-size: 4.2rem;
+    }
+
+    i {
+        font-size: 5rem;
+    }
+    button {
+        font-size: 1.4rem;
+    }
+    
+    button > i {
+        font-size: 5.4rem;
+    }
+}
+
+/* Media queries for screen size 1200px and up */
+
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 4.4rem;
+    }
+
+    .rules {
+        font-size: 1.2rem;
+    }
+
+    button {
+        font-size: 1.5rem;
+    }
+    
+    button > i {
+        font-size: 5.6rem;
+    }
+}
