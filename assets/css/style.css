@@ -25,3 +25,12 @@ h1 {
     text-align: center;
     align-items: center;
 }
+
+/* Rules section*/
+
+.rules {
+    text-align: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 10px;
+}
