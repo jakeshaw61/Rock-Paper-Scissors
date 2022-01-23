@@ -34,3 +34,10 @@ h1 {
     font-size: 1rem;
     margin-top: 10px;
 }
+
+/* Win/lose message*/
+
+.message {
+    font-size: 2rem;
+    padding: 10px 0 15px;
+}
