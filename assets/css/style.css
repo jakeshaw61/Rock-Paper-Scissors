@@ -77,3 +77,45 @@ h1 {
     right: -25px;
 }
 
+/* Rock/Paper/Scissors options*/
+
+.choice-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.choices {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 1.4rem;
+    color: #ffffff;
+    justify-content: center;
+    transition: 200ms;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    align-items: center;
+    text-align: center;
+    background: none;
+    border: none;
+}
+
+i:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+i {
+    font-size: 4.5rem;
+}
