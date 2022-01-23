@@ -19,7 +19,7 @@ You can view the live site here. [Rock Paper Scissors](!!!!!!!!!!!!!! https://ja
 - I want to be able to keep trying to improve my score.
 
 ### As a returning user:
-- I want to feel I am familiar with the site.  
+- I want to feel that i am familiar with the site.  
 - I want to be able to remember how to play. 
 
 ## Design 
