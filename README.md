@@ -1,108 +1,117 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock Paper Scissors
+![Image](assets/screenshots/mock-up.png?raw=true)
+This is the classic game of Rock Paper Scissors where you can play against the computer to see who can get the highest score.
 
-Welcome jakeshaw61,
+You can view the live site here. [Rock Paper Scissors](!!!!!!!!!!!!!! https://jakeshaw61.github.io/punting-brothers/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## User Experience
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+### User Stories
 
-## Gitpod Reminders
+### As a site creator:
+- I want to make the site visually appealing upon first impression, so the user is interested in returning to the site.
+- I want to make the site easy to navigate for the user.
+- I want the user to be able to easily understand how to play the game.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### As a first time user:
+- I want to be able to have fun palying the game.
+- I want to be able to easily understand how to play.
+- I want to be able to keep trying to improve my score.
 
-`python3 -m http.server`
+### As a returning user:
+- I want to feel I am familiar with the site.  
+- I want to be able to remember how to play. 
 
-A blue button should appear to click: _Make Public_,
+## Design 
+I wanted a minimalist overall design with large icons and a simple colour scheme so the focus remains on the game and doesnt confuse the user.
 
-Another blue button should appear to click: _Open Browser_.
+### Colour Scheme
+![Image](assets/screenshots/colours.png)
+I chose a dark grey background for the site with white text and icons. This white text stands out and creates a good contrast against the background. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Typography
+I have used 1 font throughout the site which is called Play, it is from Google fonts. I chose this font at is easy to read and also has a gaming impression. I choose Sans Serif as a fallback font. 
 
-A blue button should appear to click: _Make Public_,
+### Icons 
+- I chose 3 icons from FontAwesome which represent rock, paper and scissors. I used these icons as visual aid for the user when making their choice.
 
-Another blue button should appear to click: _Open Browser_.
+## Wireframes 
+I used Balsamiq to make some wireframes of how I wanted the site to look. Making the wireframes was very useful as I was able to imagine what the pages and features would look like on different size screens. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+[Wireframes](assets/images/wireframes.!!!!!!! git hub link to wirerames folder)
 
-To log into the Heroku toolbelt CLI:
+## Features
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Title
+![Image](assets/screenshots/title.png?raw=true)
+The page features a large title containing the name of the site and the name of the game.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Rules
+![Image](assets/screenshots/rules.png?raw=true)
 
-------
+This is where the rules of the game are explained to the user.
 
-## Release History
+### Result
+![Image](assets/screenshots/result.png?raw=true) 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+This is where the result of the round will be shown. It will say what the option the computer has chosen and who won the round.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Scoreboard
+![Image](assets/screenshots/scoreboard.png??raw=true) 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+This is where score will be displayed for the user and the computer.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Rock Paper Scissors options  
+![Image](assets/screenshots/options.png??raw=true) 
+This is where the 3 option buttons for the game are shown, where the user will confirm their choice.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Future Features
+- Highest score feature where users can add their name to the board.
+- More buttons, with the choices Lizard and Spock
+- Restart button
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Testing 
+I have tested the site on Chrome, Safari and Firefox and all the feautues work as intened. I have also tested on mobile sizes and tablet. I designed the site using a mobile first approach so all the features work the same on small size devices as they do larger sizes. 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Html 
+I used the [W3C Markup Service](https://validator.w3.org/) to validate my HTML. No errors were found.
+ 
+### CSS
+I used the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate my CSS. No errors were found. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### JavaScript
+I used the [Jshint Validator](https://jshint.com/) to validate my JaveScript. No errors were found. The following metrics were returned:
+- There are 5 functions in this file.
+- Function with the largest signature take 1 arguments, while the median is 0.
+- Largest function has 21 statements in it, while the median is 6.
+- The most complex function has a cyclomatic complexity value of 14 while the median is 1.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Lighthouse 
+I used Chromes Dev Tools lighthouse feasture to run the site throught to test for Performance, Accessability, Best Practices and SEO.
+![Image](assets/screenshots/lighthouse.png?raw=true)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Responsive 
+I used a mobile first approach when designing the site, starting off at the smallest screen size of 320px and scaling it up to screen sizes larger than 1200px. I used Flex-Box throughout the site, so when i came to the media queries i only had to make some simple changes like flex-direction or justify-content to make it responsive for other screen sizes. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Deployment 
+The site was deployed to GitHub pages, the steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab.
+- Scroll down to the GitHub Pages setion and from the source section drop-down menu, select the Master Branch and click save.
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Credits 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Content 
+- Icons taken from [Font Awesome.](https://fontawesome.com/)
+- Deployment instructions take from Code Institute readme template. 
+- Colour palette was taken from [Coolors.](https://coolors.co/)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Media 
+- Icons taken from [Font Awesome.](https://fontawesome.com/)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+### Acknowledgements 
+- To the Slack community i managed to solve a couple of issues.
+- Stack Overflow as valuable source of information.
+- [W3Schools](https://www.w3schools.com/) 
+- Youtube tutorial from FreeCodeCamp. [Youtube tutorial](https://www.youtube.com/watch?v=jaVNP3nIAv0&ab_channel=freeCodeCamp.org)
+- Youtube tutorial from Code with Ania Kubow. [Youtube tutorial](https://www.youtube.com/watch?v=RwFeg0cEZvQ&ab_channel=CodewithAniaKub%C3%B3w)
