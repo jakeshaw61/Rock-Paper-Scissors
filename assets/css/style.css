@@ -7,3 +7,21 @@
     color: #FFFFFF;
     font-family: play, sans-serif;
 }
+
+body {
+    background-color: #252C2B;
+    text-align: center;
+    display: flex;
+    margin: 0 5%;
+    flex-direction: column;
+    line-height: 1;
+}
+
+/* Header Title*/
+
+h1 {
+    font-size: 3.1rem;
+    margin: 20px auto 0;
+    text-align: center;
+    align-items: center;
+}
