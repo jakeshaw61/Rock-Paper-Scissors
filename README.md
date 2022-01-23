@@ -2,7 +2,7 @@
 ![Image](assets/screenshots/mock-up.png?raw=true)
 This is the classic game of Rock Paper Scissors where you can play against the computer to see who can get the highest score.
 
-You can view the live site here. [Rock Paper Scissors](!!!!!!!!!!!!!! https://jakeshaw61.github.io/punting-brothers/)
+You can view the live site here. [Rock Paper Scissors](https://jakeshaw61.github.io/rock-paper-scissors/)
 
 ## User Experience
 
