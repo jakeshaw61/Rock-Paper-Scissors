@@ -7,6 +7,36 @@
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    
+    <h1>Rock Paper Scissors</h1>
+        <p class="rules">Pick from the icons below and go against the computer to see who can win the most points.  
+            Remember, rock crushes scissors, scissors cut paper, and paper covers rock. 
+            1 point is given to the round winner and no points are given when the round is a draw.
+        </p>
+    <div class="container">
+        <div class="message">
+            <span id="result"></span>
+        </div>
+        <div class="score-board">
+            <div id="user-label" class="badge">User</div>
+            <div id="computer-label" class="badge">Comp</div>
+            <span id="player-score">0</span> : <span id="computer-score">0</span>
+        </div>
+        <div class="choices">
+            <div class="choice-box choice">
+                <i id="rock" class="far fa-hand-rock choice"></i>
+                <button class="btn">Rock</button>
+            </div>
+            <div class="choice-box choice">
+                <i id="paper" class="far fa-hand-paper"></i>
+                <button class="btn">Paper</button>
+            </div>
+            <div class="choice-box choice">
+                <i id="scissors" class="far fa-hand-scissors"></i>
+                <button class="btn">Scissors</button>
+            </div>
+        </div>
+    </div>
+</body>
+
 </body>
 </html>
