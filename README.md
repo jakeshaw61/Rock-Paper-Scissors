@@ -38,7 +38,7 @@ I have used 1 font throughout the site which is called Play, it is from Google f
 ## Wireframes 
 I used Balsamiq to make some wireframes of how I wanted the site to look. Making the wireframes was very useful as I was able to imagine what the pages and features would look like on different size screens. 
 
-[Wireframes](assets/images/wireframes.!!!!!!! git hub link to wirerames folder)
+[Wireframes](https://github.com/jakeshaw61/rock-paper-scissors/tree/main/assets/wireframes)
 
 ## Features
 
