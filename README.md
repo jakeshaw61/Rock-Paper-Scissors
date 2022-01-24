@@ -93,6 +93,9 @@ I used Chromes Dev Tools lighthouse feasture to run the site throught to test fo
 ### Responsive 
 I used a mobile first approach when designing the site, starting off at the smallest screen size of 320px and scaling it up to screen sizes larger than 1200px. I used Flex-Box throughout the site, so when i came to the media queries i only had to make some simple changes like flex-direction or justify-content to make it responsive for other screen sizes. 
 
+### Bugs
+There was an issue with the site when it was first deployed where my add blocker was interfering with the site. To fix this i disabaled my add blcoker and would recommend anypne else doing the same if they have this issue. 
+
 ## Deployment 
 The site was deployed to GitHub pages, the steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab.
